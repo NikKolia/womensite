@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="menopause" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="menopause">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/menopause.itdecision-llc.com/wp-content/themes/menopause" local="$PROJECT_DIR$" web="http://ftp.itdecision.com.ua/wp-content/themes/menopause" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

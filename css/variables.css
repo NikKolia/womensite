@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Real Text Web W03 Bold";
+    src: url("../fonts/3f4101b6658ddaf9c152c08f70a5b435.eot"); /* IE9*/
+    src: url("../fonts/3f4101b6658ddaf9c152c08f70a5b435.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/3f4101b6658ddaf9c152c08f70a5b435.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/3f4101b6658ddaf9c152c08f70a5b435.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/3f4101b6658ddaf9c152c08f70a5b435.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/3f4101b6658ddaf9c152c08f70a5b435.svg#Real Text Web W03 Bold") format("svg"); /* iOS 4.1- */
+  }
+
+@font-face {
+    font-family: "Real Text Web W01 Book";
+    src: url("../fonts/40a6624815388e98b52ff55136e46773.eot"); /* IE9*/
+    src: url("../fonts/40a6624815388e98b52ff55136e46773.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/40a6624815388e98b52ff55136e46773.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/40a6624815388e98b52ff55136e46773.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/40a6624815388e98b52ff55136e46773.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/40a6624815388e98b52ff55136e46773.svg#Real Text Web W01 Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: "Real Text Web W03 Regular";
+    src: url("../fonts/a5b11f3d079234b5f957fa0a522c52b4.eot"); /* IE9*/
+    src: url("../fonts/a5b11f3d079234b5f957fa0a522c52b4.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/a5b11f3d079234b5f957fa0a522c52b4.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/a5b11f3d079234b5f957fa0a522c52b4.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/a5b11f3d079234b5f957fa0a522c52b4.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/a5b11f3d079234b5f957fa0a522c52b4.svg#Real Text Web W03 Regular") format("svg"); /* iOS 4.1- */
+  }
+
+@font-face {
+    font-family: "Real Text Web W03 Medium";
+    src: url("../fonts/b1ed9e368e547fbee4ef2802fca3b7ef.eot"); /* IE9*/
+    src: url("../fonts/b1ed9e368e547fbee4ef2802fca3b7ef.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/b1ed9e368e547fbee4ef2802fca3b7ef.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/b1ed9e368e547fbee4ef2802fca3b7ef.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/b1ed9e368e547fbee4ef2802fca3b7ef.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/b1ed9e368e547fbee4ef2802fca3b7ef.svg#Real Text Web W03 Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: "Real Text Web W03 Light";
+    src: url("../fonts/2b29f377fe8fa43d3de2237dd4d58ad9.eot"); /* IE9*/
+    src: url("../fonts/2b29f377fe8fa43d3de2237dd4d58ad9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/2b29f377fe8fa43d3de2237dd4d58ad9.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/2b29f377fe8fa43d3de2237dd4d58ad9.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/2b29f377fe8fa43d3de2237dd4d58ad9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/2b29f377fe8fa43d3de2237dd4d58ad9.svg#Real Text Web W03 Light") format("svg"); /* iOS 4.1- */
+  }
+
+
+:root {
+    /*--purple-color: #180159;*/
+    --purple-color: #560C55;
+    --orange-color: #F16506;
+    --grey-color: #848181;
+    --greyColor-pointers: #D8D8D8;
+    --lightGrey-color: #cecece;
+    --greyFont-color: #656565;
+    --darkGreyFont-color: #39373A;
+    --navDark-Color: #1D1C1C;
+    --tabBg-color:#EAE7E7;
+    --black-color:#000;
+    --golderStar:#F1C40F;
+    --greyQuest-color: #F8F7FC;
+    --font-family-RealTextWeb-Bold:"Real Text Web W03 Bold","Courier New",monospace ;
+    --font-family-RealTextWeb-Book:"Real Text Web W01 Book","Courier New",monospace ;
+    --font-family-RealTextWeb-Regular:"Real Text Web W03 Regular","Courier New",monospace ;
+    --font-family-RealTextWeb-Medium:"Real Text Web W03 Medium","Courier New",monospace ;
+    --font-family-RealTextWeb-Light:"Real Text Web W03 Light","Courier New",monospace ;
+}
+
+

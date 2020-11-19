@@ -1,0 +1,186 @@
+#menu-top_menu {
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link, .approachToData h2, .approachToData p  {
+    color: #E2CFD8;
+}
+nav.navbar-light .nav-item .nav-link {
+    white-space: nowrap;
+}
+
+li.add-a-review .nav-link, .reviewBtn {
+    display: flex;
+    background: #F16506;
+    border: none!important;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    line-height: 1!important;
+    width: 100%;
+    max-width: 182px!important;
+    color: #fff;
+    margin: 0 auto;
+}
+li.add-a-review .nav-link {
+    width: 182px!important;
+    color: #fff!important;
+    font-size: 20px!important;
+}
+.largeButton {
+    max-width: 205px!important;
+}
+.reviewTitle {
+    font-family: var(--font-family-RealTextWeb-Medium);
+
+    color: #F16506;
+}
+.pum-overlay {
+    background-color: rgba( 226,207,216, 0.6 )!important;
+}
+.pum-container {
+    box-shadow: none!important;
+    filter: drop-shadow(-12px 19px 22px rgba(0, 0, 0, 0.362243)) !important;
+}
+
+#popmake-736 .popuptext_first {
+    margin-bottom: 6px;
+}
+
+#popmake-736 .popuptext_first, #popmake-736 .popuptext_second, #popmake-736 .popuptext_third {
+    line-height: 34px;
+}
+.pum-theme-729 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close {
+    height: auto!important;
+}
+.latestReviewRow {
+    margin: 4rem 0;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.latestReviewItems {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.latestReviewItems:not(:nth-child(n+3)) > .h-100 > .subItem{
+    padding-bottom: 1rem;
+}
+.latestReviewItems:nth-child(n+3) > .h-100:before {
+    display: inline-block;
+    content: "";
+    border-top: 6px solid #560C55;
+    width: 95%;
+    border-radius: 10px;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+
+
+/*.subItem {*/
+/*    position: relative;*/
+/*    top: 50%;*/
+/*    -ms-transform: translateY(-50%);*/
+/*    transform: translateY(-50%);*/
+/*}*/
+
+.subItem .title {
+    color: #F16506!important;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: var(--font-family-RealTextWeb-Medium);
+}
+.subItem .main {
+    margin-top: 1rem;
+    font-size: 23px;
+    color: #1A1919;
+}
+.subItem .name {
+    color: #F16506!important;
+    font-family: var(--font-family-RealTextWeb-Regular);
+
+}
+.buttonsBlock {
+    display: flex;
+}
+.buttonsBlock a:first-child{
+    margin-right: 2rem;
+}
+.buttonsBlock a:last-child{
+    margin-left: 2rem;
+}
+
+
+.latestReviewItems:nth-child(2n+1):after {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 3px solid #560C55;
+    top: 0;
+    left: 100%;
+}
+.latestReviewItems:first-child:after {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.latestReviewItems:nth-last-child(-n+2):after {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.reviewsMenu .dropdown-item:hover {
+    background-color: var(--orange-color) !important;
+}
+.reviewsMenu li.add-a-review .nav-link {
+    background: var(--orange-color) !important;
+}
+@media all and (max-width: 445px) {
+    .buttonsBlock {
+        display: block;
+    }
+    .buttonsBlock a:first-child, .buttonsBlock a:last-child{
+        margin: 10px;
+    }
+    .cover-inner{
+        padding: 0!important;
+    }
+    .cover-inner p{
+        white-space: pre;
+    }
+    .cover-inner p span{
+        font-size: 17px;
+    }
+}
+@media all and (max-width: 575px) {
+    .latestReviewItems:nth-child(2n+1):after {
+        display: none;
+    }
+    .latestReviewItems:nth-child(n+2) > .h-100:before {
+        display: inline-block;
+        content: "";
+        border-top: 6px solid #560C55;
+        width: 95%;
+        border-radius: 10px;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+    }
+    .subItem p {
+        width: 100%;
+        margin: 1rem auto!important;
+    }
+}
+@media all and (max-width: 991px) {
+    li.add-a-review .nav-link {
+        background: var(--purple-color);
+    }
+    #menu-top_menu {
+        align-items: initial;
+    }
+}

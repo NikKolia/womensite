@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<g>
+	<circle cx="8" cy="8" r="8"/>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="8" cy="8" r="7"/>
+	<path d="M10.858,5.142c-0.196-0.197-0.517-0.197-0.712,0L7.998,7.29L5.879,5.171c-0.195-0.195-0.512-0.195-0.707,0
+		c-0.195,0.196-0.195,0.512,0,0.707l2.119,2.119L5.158,10.13c-0.197,0.197-0.197,0.517,0,0.712c0.197,0.197,0.516,0.197,0.712,0
+		l2.133-2.133l2.118,2.119c0.195,0.195,0.512,0.195,0.707,0s0.195-0.512,0-0.707L8.71,8.002l2.148-2.148
+		C11.056,5.657,11.056,5.338,10.858,5.142z"/>
+</g>
+<text transform="matrix(1 0 0 1 660 283.5)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">global $bases_url;</tspan><tspan x="0" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">$bases_url = &apos;http://&apos; . $_SERVER[&apos;SERVER_NAME&apos;]. &apos;/menopaused/menopause/&apos;;</tspan><tspan x="0" y="43.2" font-family="'MyriadPro-Regular'" font-size="12">define( &apos;WP_HOME&apos;, $bases_url );</tspan><tspan x="0" y="57.6" font-family="'MyriadPro-Regular'" font-size="12">define( &apos;WP_SITEURL&apos;, $bases_url );</tspan><tspan x="0" y="72" font-family="'MyriadPro-Regular'" font-size="12">// ** MySQL settings - You can get this info from your web host ** //</tspan><tspan x="0" y="86.4" font-family="'MyriadPro-Regular'" font-size="12">/** The name of the database for WordPress */</tspan><tspan x="0" y="100.8" font-family="'MyriadPro-Regular'" font-size="12">define( &apos;DB_NAME&apos;, &apos;menopause&apos; );</tspan></text>
+</svg>

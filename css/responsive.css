@@ -1,0 +1,364 @@
+@media only screen and (min-width:1366px){
+    .col-xllg-5{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
+@media only screen and (min-width:1700px){
+    .col-xxl-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-xxl-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+}
+@media only screen and (min-width:1024px){
+   
+    .how-it-works h2.textColorPurple {
+        font-size: 36px;
+    }
+    .btn.btn-link.textColorPurple{
+        font-size: 18px;
+    }
+    .treatmentLanding p {
+        font-size: 1.25rem;
+    }
+    .treatmentLanding .btn-outline-secondary{
+        font-size: 30px !important;
+    }
+    .page-template-ThankyouPage-template nav.navbar:not(.purpleBg) .navbar-collapse:not(.show) a.nav-link {
+        color: var(--dark);
+    }
+    #treatmentExplanationSubSelectionHeader li{
+        flex:1;
+        max-width: unset !important;
+    }
+    /* .treatmentExplanation p:not(.contentHeading) {
+        font-size: 1.25rem;
+    } */
+    .dataPolicyPage h2.textColorPurple {
+        font-size: 2.25rem !important;
+    }
+    .dataPolicyPage {
+        font-size: 1.25rem;
+    }
+    .contribut_review p {
+        font-size: 1.375rem;
+    }
+    .aboutReviewer .textColorPurple,.aboutReviewer .cat_name{
+        font-size: 1.375rem;
+    }
+    .instructions.d-flex .helpText{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width:1099px){
+    #status .btn-default {
+        font-size: 1.0rem !important;
+    }
+    .add-a-review .qtext {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media only screen and (max-width:991px){
+    nav .dropdown-menu li .dropdown-item{
+        color: var(--white) !important;
+        font-size:14px !important;
+        padding: 8px 1rem !important;
+        font-weight: 400 !important;
+        line-height: 19px;
+
+    }
+    nav .dropdown-menu{
+        background-color: transparent !important;
+        background-clip: padding-box !important;
+        border: none !important;
+        border-radius: 0 !important;
+        padding:0 !important;
+    }
+    nav .dropdown-menu li{
+        border-bottom: unset !important
+    }
+    .dropdown .dropdown-menu {
+        display: block;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: var(--white)
+    }
+    .navbar-light .navbar-nav .reviewBtn .nav-link{
+        color: var(--white) !important;
+        display: inline-block;
+        border: 1px solid var(--white);
+        padding: 5px;
+    }
+    .navbar{
+        background-color: var(--orange-color);
+    }
+    .approachToData p.bold-text,
+    .whatHappensHere p {
+        font-size: 16px;
+    }
+    .contentSection.row {
+        font-size: 18px;
+    }
+    .contentSection .col-sm-4 h4{
+        flex: unset;
+    }
+    .instructions .instructionText,
+    .add-a-review .qtext{
+        font-size: 1rem !important;
+    }
+    #status .btn-default {
+        font-size: 0.9rem !important;
+        white-space: normal;
+    }
+    .thankyouPage p.orangeBg {
+        font-size: 1.238rem !important;
+    }
+    #treatmentExplanationSubSelectionHeader.nav-tabs .nav-link,
+    #SubDetailsSelectionTherapyHeader.nav-tabs .nav-link {
+        font-size: 1rem !important;
+    }
+    .overViewSlider p.ques {
+        font-size: 1rem !important;
+    }
+    .navbar-light .navbar-toggler span{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    .navbar-light .navbar-toggler{
+        border-color: var(--white);
+    }
+    a.navbar-brand {
+        max-width: calc(100% - 72px);
+    }
+    a.navbar-brand img{
+        max-width: 100%;
+    }
+    .navbar.navbar-light.darkMode .navbar-nav .nav-link {
+        color: var(--white) !important;
+    }
+}
+
+
+@media (max-width: 768px){
+    #SubDetailsSelectionTherapyHeader.nav-tabs{
+        flex-wrap: wrap
+    }
+    .navbar-light .navbar-nav li.add-a-review .nav-link{
+        color:var(--purple-color) !important;	
+    }
+
+    .navbar-light .navbar-nav li.add-a-review .nav-link{
+        color:var(--white) !important;	
+    }
+}
+
+@media only screen and (max-width:767px){
+    .container-fluid > .p-5 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .singleMedicine {
+        padding-top: 30px !important;
+    }
+    
+    .bigFont {
+        font-size: 2.0rem !important;
+    }    
+    .demographics {
+        height: calc(2.875rem + 2px);
+    }
+    .topHeaderWithStepsBtn p {
+        font-size: 0.89rem !important;
+    }
+    .topHeaderWithStepsBtn p br {
+        display: none;
+    }
+    .submitBtnSecContainer span.iconSubmit img {
+        max-height: 70px;
+    }
+    .submitTxt{
+        font-size: 2rem !important;
+    }
+    .thankyouPage .contentContainer.w-75 {
+        width: auto !important;
+    }
+    .socialMedia img {
+        max-height: 35px;
+    }
+    .treatmentReviewSection h2{
+        font-size: 1.5rem !important;
+    }
+    .treatmentReviewSection h3 {
+        font-size: 1.1rem !important;
+    }
+    .dataPolicyPage h2.textColorPurple {
+        font-size: 1.5rem !important;
+    }
+    .review_name_wrp .date {
+        text-align: center !important;
+    }
+    .btn.btn-link.textColorPurple {
+        width: calc(100% - 37px);
+        display: inline-block;
+    }  
+    .btn.btn-link.textColorPurple{
+        white-space: normal;
+        text-align: left;
+    } 
+    #status{
+        margin-top: 1rem !important;
+    }
+    .add-a-review .star svg{
+        width: 40px;
+        height: 40px;
+    }
+    .add-a-review .star {
+       margin-top: 1rem !important;
+    }
+    div#navbarNavDropdown {
+        max-height: calc(100vh - 95px);
+        overflow-y: auto;
+    }
+    .footerNav {
+        flex-direction: column;
+    }
+    .flexDevicerow{
+        flex-direction: row !important;
+    }
+    .mb-sm-2{
+        margin-bottom:2rem !important;
+    }
+}
+
+@media (max-width: 576px) { 
+    #SubDetailsSelectionTherapyHeader.nav-tabs{
+        flex-wrap: wrap !important;
+    }
+
+    .singleReviewBoxTreatment .singleContainer,.flex-small-column{
+        flex-direction: column;
+    }
+
+    .singleReviewBox{
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin-right:0 !important;
+    }
+
+     .add-a-review{
+         padding: 10px !important;
+     }
+
+     .add-a-review .qtext ,.add-a-review input, .add-a-review select{
+         font-size: 1rem !important;
+     }
+     #status .btn-default.btn-on.active, #status .btn-default.btn-off.active, #status .btn-default{
+         font-size: 1rem !important;
+     }
+    
+    .stepCounter span.steps{
+        width: 32px;
+        height: 32px;
+        
+    }
+    .stepCounter svg{
+        width:32px;
+        height:32px;
+    }
+
+
+
+    .lastPeriod{
+        display: inline-grid;
+    }
+
+    .thankyouPage {
+        padding: .5rem !important;
+    }
+    .thankyouPage .socialMedia img{
+        max-width: 30px;
+    }
+
+
+    .social_links a img {
+        max-width: 33px;
+    }
+    
+    .accordianContainer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bottm_row div {
+        flex: 1;
+    }
+    
+    .progressWrapperBG::before,.progressWrapperBG::after{
+       display:none !important;
+    }
+    
+    .w-sm-65{
+        width: 65% !important;
+    }
+    .p-15{
+        padding:15px !important;
+    }
+    .w-sm-35{
+        width: 35% !important;
+    }
+    .w-sm-25{
+        width: 25% !important;
+    }
+    .w-sm-100{
+        width: 100% !important;
+    }
+    .w-sm-100-block{
+        display: block !important;
+        max-width: 100% !important;
+        margin-right: auto !important;
+    }
+    .w-sm-50{
+        width: 50% !important;
+    }
+    .flex-sm-wrap{
+        flex-wrap: wrap;
+    }
+    .mb-sm-10{
+        margin-bottom:10px !important;
+    }
+    .cantTell{
+        text-align: center!important;
+    }
+    .flex-sm-column{
+        flex-direction: column ;
+    }
+    .sideEffects:nth-child(2n){
+        align-items: flex-start !important;
+    }
+    #treatmentExplanationSubSelectionHeader li{
+        max-width: unset !important;
+        text-align: left !important;
+    }
+    .cover p.lead{
+        font-size: 1.2rem !important;
+    }
+    .whatHappensHere h2{
+        font-size: 2rem !important;
+    }
+    .approachToData h2 {
+        font-size: 1.5rem !important;
+    }
+    #treatmentExplanationSubSelectionHeader.nav-tabs{
+        flex-wrap: wrap !important;
+    }
+}
